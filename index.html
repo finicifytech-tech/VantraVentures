@@ -1,0 +1,838 @@
+<!doctype html>
+<html lang="tr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Web Tasarım, Uygulama Geliştirme ve SEO | MARKA İstanbul</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<meta name="description" content="İstanbul merkezli dijital ajans. Sıfırdan kodlanan premium web siteleri, mobil ve web uygulamalar, yapay zekâ entegrasyonu, SEO ve Google Ads yönetimi. Ücretsiz site analizi alın.">
+<meta name="theme-color" content="#050505">
+<link rel="canonical" href="https://www.ornekdomain.com/">
+<link rel="alternate" hreflang="tr" href="https://www.ornekdomain.com/">
+<link rel="alternate" hreflang="en" href="https://www.ornekdomain.com/en/">
+<link rel="alternate" hreflang="x-default" href="https://www.ornekdomain.com/">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="tr_TR">
+<meta property="og:site_name" content="MARKA">
+<meta property="og:title" content="MARKA | İddialı markalar için premium web siteleri ve uygulamalar">
+<meta property="og:description" content="Sıfırdan kodlanan web siteleri, uygulamalar, SEO ve Google Ads. İstanbul.">
+<meta property="og:url" content="https://www.ornekdomain.com/">
+<meta property="og:image" content="https://www.ornekdomain.com/og-image.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%23050505'/%3E%3Ccircle cx='16' cy='16' r='6' fill='%23F4F2ED'/%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Geist:wght@300;400;500;600&family=Instrument+Serif:ital@0;1&display=swap">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ProfessionalService",
+  "name": "MARKA",
+  "url": "https://www.ornekdomain.com/",
+  "email": "info@reys.xyz",
+  "telephone": "+905307170105",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "Akasya Plaza, Acıbadem",
+    "addressLocality": "İstanbul",
+    "addressCountry": "TR"
+  },
+  "areaServed": ["TR", "GB", "EU"],
+  "knowsLanguage": ["tr", "en"],
+  "description": "Anahtar teslim web sitesi, mobil ve web uygulama geliştirme, yapay zekâ entegrasyonu, SEO ve Google Ads yönetimi.",
+  "hasOfferCatalog": {
+    "@type": "OfferCatalog",
+    "name": "Hizmetler",
+    "itemListElement": [
+      {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Anahtar teslim web sitesi"}},
+      {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Mobil ve web uygulama geliştirme"}},
+      {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "SEO"}},
+      {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Google Ads yönetimi"}},
+      {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Yapay zekâ entegrasyonu ve otomasyon"}}
+    ]
+  }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {"@type": "Question", "name": "Bir web sitesi ne kadar sürede teslim edilir?", "acceptedAnswer": {"@type": "Answer", "text": "Kurumsal bir site genelde 2-4 haftada, kapsamlı projeler ve uygulamalar kapsama göre daha uzun sürede teslim edilir. Takvimi teklifle birlikte net olarak veririz."}},
+    {"@type": "Question", "name": "Fiyatlarınız nedir?", "acceptedAnswer": {"@type": "Answer", "text": "Her işletmenin ihtiyacı farklı olduğu için sabit paket satmıyoruz. Ücretsiz analizden sonra proje bazında net bir teklif veriyoruz."}},
+    {"@type": "Question", "name": "SEO ne zaman sonuç verir?", "acceptedAnswer": {"@type": "Answer", "text": "Teknik iyileştirmelerin etkisi birkaç hafta içinde görülmeye başlar. Rekabetçi aramalarda kalıcı sıralama genelde 3-6 ay düzenli çalışma ister."}},
+    {"@type": "Question", "name": "Site ve kodlar kime ait olur?", "acceptedAnswer": {"@type": "Answer", "text": "Size. Alan adı, hosting, kaynak kod, Google Analytics, Search Console ve reklam hesapları işletmenizin adına açılır ve teslim edilir."}},
+    {"@type": "Question", "name": "Teslimden sonra destek veriyor musunuz?", "acceptedAnswer": {"@type": "Answer", "text": "Evet. Her projede teslim sonrası ücretsiz destek süresi var. Sonrasında isterseniz bakım, güncelleme ve içerik için aylık planlarımızdan birini seçebilirsiniz."}}
+  ]
+}
+</script>
+<style>
+/* Layout: sinematik, tek renkli (siyah / kırık beyaz). Dev tipografi, serif italik vurgular, tam genişlik satırlar, WebGL ışık dokulu hero. */
+:root {
+  --bg: #050505;
+  --bg-2: #0D0D0E;
+  --line: rgba(244, 242, 237, 0.12);
+  --line-strong: rgba(244, 242, 237, 0.28);
+  --fg: #F4F2ED;
+  --muted: #8E8C87;
+  --dim: #55534F;
+  --live: #7BE3A6;
+  --font-sans: "Geist", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  --font-serif: "Instrument Serif", "Times New Roman", Georgia, serif;
+  --fs-hero: clamp(2.9rem, 1.2rem + 7.4vw, 8.6rem);
+  --fs-xl: clamp(2.4rem, 1.2rem + 4.6vw, 5.6rem);
+  --fs-lg: clamp(1.9rem, 1.2rem + 2.6vw, 3.4rem);
+  --fs-md: clamp(1.25rem, 1rem + 0.8vw, 1.6rem);
+  --ease: cubic-bezier(.16, 1, .3, 1);
+  color-scheme: dark;
+}
+* { box-sizing: border-box; }
+html { -webkit-text-size-adjust: 100%; }
+html.lenis, html.lenis body { height: auto; }
+.lenis.lenis-smooth { scroll-behavior: auto !important; }
+body {
+  margin: 0; background: var(--bg); color: var(--fg);
+  font-family: var(--font-sans); font-weight: 400; font-size: 1rem; line-height: 1.6;
+  -webkit-font-smoothing: antialiased; overflow-x: hidden;
+}
+body::before { content: ""; position: fixed; inset: 0 0 auto; height: env(safe-area-inset-top, 0px); z-index: 90; background: var(--bg); }
+a { color: inherit; text-decoration: none; }
+img { max-width: 100%; display: block; }
+::selection { background: var(--fg); color: var(--bg); }
+:focus-visible { outline: 1px solid var(--fg); outline-offset: 4px; }
+h1, h2, h3 { margin: 0; font-weight: 400; letter-spacing: -0.035em; line-height: 0.98; text-wrap: balance; }
+p { margin: 0; }
+em, .serif { font-family: var(--font-serif); font-style: italic; font-weight: 400; letter-spacing: -0.01em; }
+.wrap {
+  width: 100%; max-width: 1440px; margin-inline: auto;
+  padding-left: max(20px, env(safe-area-inset-left, 0px), 4vw);
+  padding-right: max(20px, env(safe-area-inset-right, 0px), 4vw);
+}
+.label { font-size: 0.78rem; letter-spacing: 0.16em; text-transform: uppercase; color: var(--muted); display: inline-flex; align-items: center; gap: 12px; }
+.label::before { content: ""; width: 28px; height: 1px; background: currentColor; }
+
+/* grain */
+.grain {
+  position: fixed; inset: -50%; z-index: 80; pointer-events: none; opacity: 0.07;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='160'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.85' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+  animation: grain 1.2s steps(6) infinite;
+}
+@keyframes grain { 0%,100% { transform: translate(0,0); } 20% { transform: translate(-3%,2%); } 40% { transform: translate(2%,-3%); } 60% { transform: translate(-2%,-1%); } 80% { transform: translate(3%,3%); } }
+
+/* buttons */
+.btn {
+  position: relative; display: inline-flex; align-items: center; gap: 12px; min-height: 52px; padding: 0 28px;
+  border-radius: 999px; font-family: inherit; font-size: 0.95rem; font-weight: 500; cursor: pointer;
+  border: 1px solid var(--line-strong); color: var(--fg); background: transparent; overflow: hidden; isolation: isolate;
+  transition: color .5s var(--ease), border-color .5s var(--ease);
+}
+.btn::before { content: ""; position: absolute; inset: 0; z-index: -1; background: var(--fg); border-radius: inherit; transform: translateY(101%); transition: transform .5s var(--ease); }
+.btn:hover { color: var(--bg); border-color: var(--fg); }
+.btn:hover::before { transform: translateY(0); }
+.btn-solid { background: var(--fg); color: var(--bg); border-color: var(--fg); }
+.btn-solid::before { background: var(--bg); }
+.btn-solid:hover { color: var(--fg); border-color: var(--line-strong); }
+.btn .arr { display: inline-block; transition: transform .5s var(--ease); }
+.btn:hover .arr { transform: translateX(4px); }
+
+/* header */
+.site-header { position: fixed; top: env(safe-area-inset-top, 0px); left: 0; right: 0; z-index: 70; transition: background-color .4s, border-color .4s, backdrop-filter .4s; border-bottom: 1px solid transparent; }
+.site-header.scrolled { background: rgba(5,5,5,.72); backdrop-filter: blur(16px); -webkit-backdrop-filter: blur(16px); border-color: var(--line); }
+.nav { display: flex; align-items: center; gap: 32px; min-height: 76px; }
+.logo { font-size: 1.15rem; font-weight: 600; letter-spacing: -0.02em; display: inline-flex; align-items: center; gap: 10px; }
+.logo i { width: 10px; height: 10px; border-radius: 50%; background: var(--fg); display: inline-block; }
+.nav-links { display: flex; gap: 34px; list-style: none; margin: 0 auto; padding: 0; }
+.nav-links a { font-size: 0.92rem; color: var(--muted); transition: color .3s; }
+.nav-links a:hover { color: var(--fg); }
+.nav-right { display: flex; align-items: center; gap: 20px; }
+.lang { font-size: 0.82rem; color: var(--dim); display: flex; gap: 8px; }
+.lang [aria-current] { color: var(--fg); }
+.nav .btn { min-height: 42px; padding: 0 20px; font-size: 0.88rem; }
+.menu-btn { display: none; width: 46px; height: 46px; border-radius: 50%; border: 1px solid var(--line-strong); background: none; color: var(--fg); cursor: pointer; }
+.menu-btn span { display: block; width: 16px; height: 1.5px; background: currentColor; margin: 4px auto; transition: transform .4s var(--ease); }
+.menu-btn[aria-expanded="true"] span:first-child { transform: translateY(2.75px) rotate(45deg); }
+.menu-btn[aria-expanded="true"] span:last-child { transform: translateY(-2.75px) rotate(-45deg); }
+
+/* hero */
+.hero { position: relative; min-height: min(100svh, 980px); display: flex; flex-direction: column; justify-content: flex-end; padding-block: 140px 40px; overflow: hidden; isolation: isolate; }
+.hero canvas, .hero .fallback { position: absolute; inset: 0; width: 100%; height: 100%; z-index: -2; }
+.hero .fallback { background: radial-gradient(60% 50% at 70% 30%, #2a2a2c, transparent 70%), radial-gradient(40% 40% at 20% 70%, #1a1a1c, transparent 70%), var(--bg); }
+.hero::after { content: ""; position: absolute; inset: 0; z-index: -1; background: linear-gradient(180deg, rgba(5,5,5,.2) 0%, rgba(5,5,5,0) 40%, rgba(5,5,5,.75) 85%, var(--bg) 100%); }
+.hero-inner { display: grid; gap: 40px; }
+.hero h1 { font-size: var(--fs-hero); font-weight: 400; letter-spacing: -0.05em; line-height: 0.92; max-width: 15ch; }
+.hero h1 .ln { display: block; overflow: hidden; padding-block: 0.14em 0.08em; margin-block: -0.14em -0.08em; }
+.hero h1 .ln > span { display: inline-block; }
+.hero h1 em { letter-spacing: -0.02em; }
+.hero-row { display: flex; flex-wrap: wrap; justify-content: space-between; align-items: flex-end; gap: 32px; }
+.hero-lead { max-width: 46ch; color: rgba(244,242,237,.78); font-size: 1.08rem; font-weight: 300; }
+.hero-cta { display: flex; flex-wrap: wrap; gap: 12px; }
+.hero-foot { display: flex; justify-content: space-between; gap: 24px; margin-top: 72px; padding-top: 22px; border-top: 1px solid var(--line); font-size: 0.85rem; color: var(--muted); flex-wrap: wrap; }
+.status { display: inline-flex; align-items: center; gap: 10px; }
+.status i { width: 7px; height: 7px; border-radius: 50%; background: var(--live); box-shadow: 0 0 0 0 rgba(123,227,166,.6); animation: pulse 2.2s infinite; }
+@keyframes pulse { 70% { box-shadow: 0 0 0 10px rgba(123,227,166,0); } 100% { box-shadow: 0 0 0 0 rgba(123,227,166,0); } }
+
+/* marquee */
+.marquee { overflow: hidden; border-block: 1px solid var(--line); padding-block: 28px; }
+.marquee-track { display: flex; width: max-content; animation: marq 45s linear infinite; }
+.marquee-track span { font-size: clamp(2rem, 1.2rem + 3vw, 4rem); letter-spacing: -0.04em; white-space: nowrap; padding-right: 0.6em; color: var(--fg); }
+.marquee-track span:nth-child(even) { font-family: var(--font-serif); font-style: italic; color: var(--muted); letter-spacing: -0.01em; }
+.marquee-track span::after { content: "✦"; font-size: 0.4em; vertical-align: 0.6em; margin-left: 0.6em; color: var(--dim); font-style: normal; font-family: var(--font-sans); }
+@keyframes marq { to { transform: translateX(-50%); } }
+
+/* sections */
+.section { padding-block: clamp(96px, 13vw, 200px); }
+.sec-head { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 2.4fr); gap: 32px; margin-bottom: clamp(56px, 7vw, 104px); align-items: start; }
+.sec-head h2 { font-size: var(--fs-xl); }
+.sec-head p { color: var(--muted); max-width: 48ch; margin-top: 28px; font-size: 1.05rem; font-weight: 300; }
+
+/* services */
+.svc-list { list-style: none; margin: 0; padding: 0; border-top: 1px solid var(--line); }
+.svc { border-bottom: 1px solid var(--line); }
+.svc button {
+  all: unset; box-sizing: border-box; width: 100%; cursor: pointer;
+  display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 2.4fr) auto; gap: 32px; align-items: center;
+  padding-block: clamp(26px, 3.2vw, 44px);
+}
+.svc button:focus-visible { outline: 1px solid var(--fg); outline-offset: -1px; }
+.svc .kind { font-size: 0.8rem; letter-spacing: 0.14em; text-transform: uppercase; color: var(--muted); }
+.svc h3 { font-size: var(--fs-lg); transition: transform .6s var(--ease), color .4s; }
+.svc .plus { width: 52px; height: 52px; border-radius: 50%; border: 1px solid var(--line-strong); display: grid; place-items: center; transition: transform .6s var(--ease), background-color .4s, color .4s; font-size: 1.3rem; font-weight: 300; }
+.svc button:hover h3 { transform: translateX(12px); }
+.svc button:hover h3 em { color: var(--fg); }
+.svc.open .plus { transform: rotate(45deg); background: var(--fg); color: var(--bg); }
+.svc-body { display: grid; grid-template-rows: 0fr; transition: grid-template-rows .7s var(--ease); }
+.svc.open .svc-body { grid-template-rows: 1fr; }
+.svc-body > div { overflow: hidden; }
+.svc-inner { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 2.4fr) auto; gap: 32px; padding-bottom: 44px; }
+.svc-inner p { color: rgba(244,242,237,.75); max-width: 56ch; font-size: 1.05rem; font-weight: 300; }
+.tags { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 22px; list-style: none; padding: 0; }
+.tags li { font-size: 0.82rem; padding: 6px 14px; border: 1px solid var(--line); border-radius: 999px; color: var(--muted); }
+.svc-spacer { width: 52px; }
+
+/* statement */
+.statement { font-size: var(--fs-xl); letter-spacing: -0.045em; line-height: 1.02; max-width: 18ch; }
+.statement .w { color: var(--fg); transition: color .3s; }
+.statement.js-ready .w { color: var(--dim); }
+.statement.js-ready .w.on { color: var(--fg); }
+.facts { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 0; margin-top: clamp(64px, 8vw, 120px); border-top: 1px solid var(--line); }
+.fact { padding: 32px 32px 0 0; display: grid; gap: 10px; align-content: start; }
+.fact + .fact { padding-left: 32px; border-left: 1px solid var(--line); }
+.fact b { font-size: clamp(2.6rem, 1.6rem + 3vw, 4.4rem); font-weight: 400; letter-spacing: -0.05em; line-height: 1; font-variant-numeric: tabular-nums; }
+.fact span { color: var(--muted); font-size: 0.95rem; max-width: 30ch; }
+
+/* work */
+.work { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: clamp(16px, 2vw, 28px); }
+.case { display: grid; gap: 20px; min-width: 0; }
+.case.wide { grid-column: 1 / -1; }
+.cover { position: relative; aspect-ratio: 16 / 10; max-width: 100%; border-radius: 6px; overflow: hidden; background: var(--bg-2); isolation: isolate; }
+.case.wide .cover { aspect-ratio: 21 / 9; }
+.cover-art { position: absolute; inset: 0; transition: transform 1.2s var(--ease); background: var(--art); }
+.cover-art::after { content: ""; position: absolute; inset: 0; background: radial-gradient(120% 80% at 50% 120%, rgba(5,5,5,.85), transparent 60%); }
+.case:hover .cover-art { transform: scale(1.045); }
+.cover-name { position: absolute; left: clamp(20px, 3vw, 40px); bottom: clamp(16px, 2.4vw, 32px); font-size: clamp(2.2rem, 1.2rem + 4vw, 5.4rem); letter-spacing: -0.05em; line-height: 1; z-index: 1; }
+.cover-ui { position: absolute; inset: 14% 8% auto auto; width: 46%; max-width: 520px; aspect-ratio: 16 / 10; border-radius: 8px; border: 1px solid rgba(255,255,255,.14); background: rgba(10,10,12,.55); backdrop-filter: blur(6px); -webkit-backdrop-filter: blur(6px); box-shadow: 0 40px 80px -30px rgba(0,0,0,.8); transition: transform 1.2s var(--ease); }
+.case:hover .cover-ui { transform: translateY(-8px); }
+.cover-ui svg { width: 100%; height: 100%; display: block; }
+.cover-shot { position: absolute; top: 10%; right: 6%; width: 60%; border-radius: 10px; overflow: hidden; border: 1px solid rgba(255,255,255,.14); background: #111; box-shadow: 0 40px 80px -30px rgba(0,0,0,.85); transition: transform 1.2s var(--ease); }
+.cover-shot::before { content: ""; display: block; height: 20px; border-bottom: 1px solid rgba(255,255,255,.08); background: radial-gradient(circle at 12px 10px, rgba(255,255,255,.28) 2.5px, transparent 3px), radial-gradient(circle at 22px 10px, rgba(255,255,255,.28) 2.5px, transparent 3px), radial-gradient(circle at 32px 10px, rgba(255,255,255,.28) 2.5px, transparent 3px), #17171a; }
+.cover-shot img { width: 100%; height: auto; display: block; }
+.case:hover .cover-shot { transform: translateY(-8px); }
+.case.wide .cover-shot { width: 50%; top: 12%; right: 5%; }
+.case.wide .cover-shot.second { width: 30%; right: auto; left: 33%; top: 30%; z-index: 1; transition-delay: .05s; }
+.cover-name { text-shadow: 0 4px 30px rgba(0,0,0,.6); z-index: 2; }
+.case-meta { display: flex; justify-content: space-between; align-items: baseline; gap: 16px; flex-wrap: wrap; }
+.case-meta h3 { font-size: var(--fs-md); letter-spacing: -0.02em; line-height: 1.2; }
+.case-meta p { color: var(--muted); font-size: 0.95rem; margin-top: 6px; max-width: 52ch; }
+.case-tags { display: flex; gap: 14px; font-size: 0.82rem; color: var(--muted); }
+.case-link { font-size: 0.9rem; border-bottom: 1px solid var(--line-strong); padding-bottom: 2px; white-space: nowrap; transition: border-color .3s; }
+.case-link:hover { border-color: var(--fg); }
+
+/* audiences */
+.aud { list-style: none; margin: 0; padding: 0; border-top: 1px solid var(--line); }
+.aud li { display: grid; grid-template-columns: minmax(0, 2fr) minmax(0, 1.2fr); gap: 32px; align-items: baseline; padding-block: clamp(22px, 2.6vw, 34px); border-bottom: 1px solid var(--line); transition: padding-left .6s var(--ease); }
+.aud li:hover { padding-left: 16px; }
+.aud h3 { font-size: clamp(1.6rem, 1.1rem + 2vw, 2.8rem); letter-spacing: -0.04em; line-height: 1.05; }
+.aud p { color: var(--muted); font-size: 0.98rem; }
+
+/* process */
+.steps { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(5, minmax(0, 1fr)); gap: 0; counter-reset: s; }
+.steps li { padding: 28px 24px 0 0; border-top: 1px solid var(--line); position: relative; display: grid; gap: 12px; align-content: start; min-width: 0; }
+.steps li::before { counter-increment: s; content: counter(s, decimal-leading-zero); font-family: var(--font-serif); font-style: italic; font-size: 2.6rem; line-height: 1; color: var(--muted); }
+.steps li::after { content: ""; position: absolute; top: -4px; left: 0; width: 7px; height: 7px; border-radius: 50%; background: var(--fg); }
+.steps h3 { font-size: 1.2rem; letter-spacing: -0.02em; line-height: 1.25; font-weight: 500; }
+.steps p { color: var(--muted); font-size: 0.93rem; }
+
+/* audit cta */
+.audit { position: relative; border-top: 1px solid var(--line); border-bottom: 1px solid var(--line); overflow: hidden; isolation: isolate; }
+.audit::before { content: ""; position: absolute; z-index: -1; width: 70vw; height: 70vw; max-width: 900px; max-height: 900px; right: -20vw; top: 50%; transform: translateY(-50%); border-radius: 50%; background: radial-gradient(circle, rgba(244,242,237,.09), transparent 65%); }
+.audit-grid { display: grid; grid-template-columns: minmax(0, 1.3fr) minmax(0, 1fr); gap: clamp(40px, 6vw, 100px); align-items: end; }
+.audit h2 { font-size: var(--fs-xl); }
+.audit-form { display: grid; gap: 18px; }
+.audit-form p { color: var(--muted); font-weight: 300; }
+.url-field { display: flex; gap: 8px; border: 1px solid var(--line-strong); border-radius: 999px; padding: 6px; background: rgba(5,5,5,.6); }
+.url-field input { flex: 1; min-width: 0; background: none; border: 0; color: var(--fg); font: inherit; padding: 0 18px; outline: none; }
+.url-field input::placeholder { color: var(--dim); }
+.url-field .btn { min-height: 46px; padding: 0 22px; flex-shrink: 0; }
+.checklist { display: flex; flex-wrap: wrap; gap: 8px 20px; font-size: 0.85rem; color: var(--muted); list-style: none; padding: 0; margin: 0; }
+.checklist li::before { content: "✓"; margin-right: 8px; color: var(--fg); }
+
+/* faq */
+.faq { border-top: 1px solid var(--line); }
+.faq details { border-bottom: 1px solid var(--line); }
+.faq summary { list-style: none; cursor: pointer; display: flex; justify-content: space-between; align-items: center; gap: 24px; padding-block: 28px; font-size: clamp(1.15rem, 1rem + .6vw, 1.5rem); letter-spacing: -0.02em; }
+.faq summary::-webkit-details-marker { display: none; }
+.faq summary::after { content: "+"; font-weight: 300; font-size: 1.6rem; line-height: 1; color: var(--muted); transition: transform .5s var(--ease); }
+.faq details[open] summary::after { transform: rotate(45deg); }
+.faq details p { color: var(--muted); max-width: 68ch; padding-bottom: 30px; font-weight: 300; }
+
+/* contact */
+.contact h2 { font-size: var(--fs-hero); letter-spacing: -0.05em; line-height: 0.92; max-width: 12ch; }
+.contact-grid { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1.5fr); gap: clamp(40px, 6vw, 120px); margin-top: clamp(56px, 7vw, 100px); }
+.info { list-style: none; margin: 0; padding: 0; display: grid; align-content: start; }
+.info li { display: grid; gap: 4px; padding-block: 20px; border-bottom: 1px solid var(--line); }
+.info li:first-child { border-top: 1px solid var(--line); }
+.info .k { font-size: 0.75rem; letter-spacing: 0.16em; text-transform: uppercase; color: var(--dim); }
+.info .v { font-size: 1.2rem; letter-spacing: -0.01em; user-select: all; }
+.info a.v:hover { color: var(--muted); }
+form.lead { display: grid; gap: 34px; min-width: 0; }
+.row2 { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 34px; }
+.field { position: relative; display: grid; min-width: 0; }
+.field label { font-size: 0.78rem; letter-spacing: 0.12em; text-transform: uppercase; color: var(--dim); margin-bottom: 4px; }
+.field input, .field textarea {
+  background: transparent; border: 0; border-bottom: 1px solid var(--line-strong); border-radius: 0; color: var(--fg);
+  font: inherit; font-size: 1.15rem; padding: 10px 0 12px; outline: none; transition: border-color .4s; width: 100%;
+}
+.field textarea { min-height: 96px; resize: vertical; }
+.field input:focus, .field textarea:focus { border-color: var(--fg); }
+fieldset { border: 0; margin: 0; padding: 0; min-width: 0; }
+legend { font-size: 0.78rem; letter-spacing: 0.12em; text-transform: uppercase; color: var(--dim); margin-bottom: 14px; padding: 0; }
+.chips { display: flex; flex-wrap: wrap; gap: 10px; }
+.chip input { position: absolute; opacity: 0; pointer-events: none; }
+.chip span { display: inline-block; padding: 10px 18px; border-radius: 999px; border: 1px solid var(--line-strong); font-size: 0.92rem; cursor: pointer; transition: all .35s var(--ease); }
+.chip input:checked + span { background: var(--fg); color: var(--bg); border-color: var(--fg); }
+.chip input:focus-visible + span { outline: 1px solid var(--fg); outline-offset: 3px; }
+.consent { display: flex; gap: 12px; font-size: 0.86rem; color: var(--muted); align-items: flex-start; }
+.consent input { accent-color: var(--fg); width: 16px; height: 16px; margin-top: 3px; flex-shrink: 0; }
+.consent a { text-decoration: underline; text-underline-offset: 3px; }
+.form-foot { display: flex; flex-wrap: wrap; gap: 20px; align-items: center; justify-content: space-between; }
+.form-status { font-size: 0.92rem; color: var(--muted); }
+.form-status.ok { color: var(--live); }
+
+/* footer */
+footer { border-top: 1px solid var(--line); padding-top: 64px; overflow: hidden; }
+.foot-top { display: grid; grid-template-columns: minmax(0, 2fr) repeat(3, minmax(0, 1fr)); gap: 32px; color: var(--muted); font-size: 0.92rem; }
+.foot-top h4 { margin: 0 0 14px; font-size: 0.75rem; letter-spacing: 0.16em; text-transform: uppercase; color: var(--dim); font-weight: 400; }
+.foot-top ul { list-style: none; padding: 0; margin: 0; display: grid; gap: 8px; }
+.foot-top a:hover { color: var(--fg); }
+.wordmark { font-size: clamp(5rem, 24vw, 26rem); letter-spacing: -0.07em; line-height: 0.78; margin: 64px 0 0 -0.04em; color: var(--fg); white-space: nowrap; user-select: none; }
+.foot-bottom { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 12px; padding-block: 24px 28px; border-top: 1px solid var(--line); font-size: 0.8rem; color: var(--dim); margin-top: 28px; }
+
+/* whatsapp */
+.wa { position: fixed; z-index: 60; right: calc(20px + env(safe-area-inset-right, 0px)); bottom: calc(20px + env(safe-area-inset-bottom, 0px)); width: 54px; height: 54px; border-radius: 50%; background: var(--fg); color: var(--bg); display: grid; place-items: center; box-shadow: 0 16px 40px rgba(0,0,0,.5); transition: transform .5s var(--ease); }
+.wa:hover { transform: scale(1.08); }
+.wa svg { width: 26px; height: 26px; fill: currentColor; }
+
+/* custom cursor */
+.cursor, .cursor-ring { position: fixed; top: 0; left: 0; z-index: 100; pointer-events: none; border-radius: 50%; mix-blend-mode: difference; display: none; }
+.cursor { width: 6px; height: 6px; background: #fff; margin: -3px 0 0 -3px; }
+.cursor-ring { width: 40px; height: 40px; margin: -20px 0 0 -20px; border: 1px solid #fff; transition: width .4s var(--ease), height .4s var(--ease), margin .4s var(--ease), background-color .4s; }
+.cursor-ring.hover { width: 76px; height: 76px; margin: -38px 0 0 -38px; background: #fff; }
+@media (pointer: fine) { .has-cursor .cursor, .has-cursor .cursor-ring { display: block; } }
+
+/* responsive */
+@media (max-width: 1080px) {
+  .steps { grid-template-columns: repeat(3, minmax(0, 1fr)); row-gap: 48px; }
+  .foot-top { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+  .foot-top > :first-child { grid-column: 1 / -1; }
+}
+@media (max-width: 900px) {
+  .nav-links { display: none; position: absolute; top: 100%; left: 0; right: 0; flex-direction: column; gap: 0; margin: 0; background: rgba(5,5,5,.96); backdrop-filter: blur(16px); -webkit-backdrop-filter: blur(16px); border-bottom: 1px solid var(--line); padding: 12px max(20px, env(safe-area-inset-right, 0px)) 28px max(20px, env(safe-area-inset-left, 0px)); }
+  .nav-links.open { display: flex; }
+  .nav-links a { display: block; padding-block: 12px; font-size: 1.8rem; letter-spacing: -0.03em; color: var(--fg); }
+  .nav-right { margin-left: auto; }
+  .nav .btn { display: none; }
+  .menu-btn { display: block; }
+  .sec-head, .audit-grid, .contact-grid { grid-template-columns: minmax(0, 1fr); }
+  .sec-head { gap: 20px; }
+  .svc button, .svc-inner { grid-template-columns: minmax(0, 1fr) auto; }
+  .svc .kind { grid-column: 1 / -1; }
+  .svc-inner > :first-child, .svc-spacer { display: none; }
+  .work { grid-template-columns: minmax(0, 1fr); }
+  .case.wide .cover { aspect-ratio: 16 / 10; }
+  .case.wide .cover-shot.second { display: none; }
+  .cover-shot, .case.wide .cover-shot { width: 66%; top: 8%; right: 5%; }
+  .aud li { grid-template-columns: minmax(0, 1fr); gap: 8px; }
+  .facts { grid-template-columns: minmax(0, 1fr); }
+  .fact, .fact + .fact { padding: 28px 0; border-left: 0; border-bottom: 1px solid var(--line); }
+}
+@media (max-width: 600px) {
+  .steps { grid-template-columns: minmax(0, 1fr); }
+  .row2 { grid-template-columns: minmax(0, 1fr); }
+  .hero-cta .btn { flex: 1 1 auto; justify-content: center; }
+  .cover-ui { width: 62%; inset: 10% 6% auto auto; }
+  .url-field { flex-direction: column; border-radius: 18px; }
+  .url-field input { padding: 12px 14px; }
+  .foot-top { grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); }
+}
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { animation: none !important; transition: none !important; }
+}
+</style>
+</head>
+<body>
+<div class="grain" aria-hidden="true"></div>
+<div class="cursor" aria-hidden="true"></div>
+<div class="cursor-ring" aria-hidden="true"></div>
+
+<header class="site-header" id="header">
+  <nav class="wrap nav" aria-label="Ana menü">
+    <a href="#top" class="logo" aria-label="MARKA ana sayfa"><i aria-hidden="true"></i>MARKA</a>
+    <ul class="nav-links" id="nav-links">
+      <li><a href="#hizmetler">Hizmetler</a></li>
+      <li><a href="#projeler">Projeler</a></li>
+      <li><a href="#surec">Süreç</a></li>
+      <li><a href="#sss">SSS</a></li>
+      <li><a href="#iletisim">İletişim</a></li>
+    </ul>
+    <div class="nav-right">
+      <div class="lang"><a href="#top" aria-current="page">TR</a><span>/</span><a href="en/" hreflang="en">EN</a></div>
+      <a href="#iletisim" class="btn btn-solid">Proje başlat</a>
+      <button class="menu-btn" id="menu-btn" aria-label="Menü" aria-expanded="false" aria-controls="nav-links"><span></span><span></span></button>
+    </div>
+  </nav>
+</header>
+
+<main id="top">
+  <section class="hero">
+    <div class="fallback" aria-hidden="true"></div>
+    <canvas id="hero-gl" aria-hidden="true"></canvas>
+    <div class="wrap hero-inner">
+      <span class="label">Dijital ajans · İstanbul</span>
+      <h1 id="hero-title">
+        <span class="ln"><span>İddialı markalar için</span></span>
+        <span class="ln"><span><em>premium</em> web siteleri</span></span>
+        <span class="ln"><span>ve uygulamalar.</span></span>
+      </h1>
+      <div class="hero-row">
+        <p class="hero-lead">Sıfırdan kodlanan web siteleri, mobil ve web uygulamaları, yapay zekâ entegrasyonları, SEO ve Google Ads. Fikirden yayına, yayından ilk sıraya. Anahtar teslim.</p>
+        <div class="hero-cta">
+          <a href="#analiz" class="btn btn-solid">Ücretsiz analiz al <span class="arr" aria-hidden="true">→</span></a>
+          <a href="#projeler" class="btn">Projeleri gör <span class="arr" aria-hidden="true">↓</span></a>
+        </div>
+      </div>
+      <div class="hero-foot">
+        <span class="status"><i aria-hidden="true"></i>Yeni projelere açığız</span>
+        <span>Web · Mobil · Yapay zekâ · SEO · Ads</span>
+        <span>Türkçe / English</span>
+      </div>
+    </div>
+  </section>
+
+  <div class="marquee" aria-hidden="true">
+    <div class="marquee-track">
+      <span>Web siteleri</span><span>mobil uygulamalar</span><span>SEO</span><span>yapay zekâ</span><span>Google Ads</span><span>e-ticaret</span><span>Telegram Mini App</span><span>otomasyon</span>
+      <span>Web siteleri</span><span>mobil uygulamalar</span><span>SEO</span><span>yapay zekâ</span><span>Google Ads</span><span>e-ticaret</span><span>Telegram Mini App</span><span>otomasyon</span>
+    </div>
+  </div>
+
+  <section class="section" id="hizmetler">
+    <div class="wrap">
+      <div class="sec-head reveal">
+        <span class="label">Hizmetler</span>
+        <div>
+          <h2>Performans gösteren <em>dijital varlık.</em></h2>
+          <p>Tasarım, yazılım, SEO ve reklam tek ekipte. Baştan sona tek muhatap, tek sorumlu.</p>
+        </div>
+      </div>
+      <ul class="svc-list">
+        <li class="svc open">
+          <button aria-expanded="true" aria-controls="svc-1"><span class="kind">Anahtar teslim</span><h3>Web <em>siteleri</em></h3><span class="plus" aria-hidden="true">+</span></button>
+          <div class="svc-body" id="svc-1"><div><div class="svc-inner"><span></span><div><p>Kurumsal site, landing page, e-ticaret. Hazır tema ya da sayfa oluşturucu kullanmıyoruz; her satır markanıza göre yazılır. Hızlı açılır, her ekranda kusursuz görünür, Google'ın ölçütlerini karşılar.</p><ul class="tags"><li>Kurumsal site</li><li>Landing page</li><li>E-ticaret</li><li>Çok dilli</li><li>Yönetim paneli</li></ul></div><span class="svc-spacer"></span></div></div></div>
+        </li>
+        <li class="svc">
+          <button aria-expanded="false" aria-controls="svc-2"><span class="kind">Fikirden mağazaya</span><h3>Mobil ve web <em>uygulamalar</em></h3><span class="plus" aria-hidden="true">+</span></button>
+          <div class="svc-body" id="svc-2"><div><div class="svc-inner"><span></span><div><p>iOS ve Android uygulamalar, web uygulamaları, SaaS platformları, Telegram Mini App'ler. Fikri alıyor, MVP'yi hızlıca çıkarıyor, ürünü büyütüyoruz. Her türlü fikir.</p><ul class="tags"><li>iOS &amp; Android</li><li>React Native</li><li>SaaS</li><li>Telegram Mini App</li><li>MVP</li></ul></div><span class="svc-spacer"></span></div></div></div>
+        </li>
+        <li class="svc">
+          <button aria-expanded="false" aria-controls="svc-3"><span class="kind">Organik büyüme</span><h3>SEO</h3><span class="plus" aria-hidden="true">+</span></button>
+          <div class="svc-body" id="svc-3"><div><div class="svc-inner"><span></span><div><p>Teknik altyapı, içerik, yerel arama ve Google İşletme Profili. Müşterileriniz sizi aradığında ilk sayfada çıkmanız için çalışır, her ay raporlarız.</p><ul class="tags"><li>Teknik SEO</li><li>İçerik</li><li>Yerel SEO</li><li>Çok dilli SEO</li><li>Aylık rapor</li></ul></div><span class="svc-spacer"></span></div></div></div>
+        </li>
+        <li class="svc">
+          <button aria-expanded="false" aria-controls="svc-4"><span class="kind">Reklam</span><h3>Google <em>Ads</em></h3><span class="plus" aria-hidden="true">+</span></button>
+          <div class="svc-body" id="svc-4"><div><div class="svc-inner"><span></span><div><p>Bütçenizi doğru aramalara harcayan, dönüşüm takibi kurulu kampanyalar. Ne kadar harcadığınızı ve karşılığında kaç müşteri geldiğini net görürsünüz.</p><ul class="tags"><li>Arama ağı</li><li>Performance Max</li><li>Dönüşüm takibi</li></ul></div><span class="svc-spacer"></span></div></div></div>
+        </li>
+        <li class="svc">
+          <button aria-expanded="false" aria-controls="svc-5"><span class="kind">Yapay zekâ</span><h3>AI ve <em>otomasyon</em></h3><span class="plus" aria-hidden="true">+</span></button>
+          <div class="svc-body" id="svc-5"><div><div class="svc-inner"><span></span><div><p>Sohbet botları, makine öğrenmesi modelleri, yapay zekâ entegrasyonları ve iş süreçlerinizi hızlandıran otomasyonlar.</p><ul class="tags"><li>Chatbot</li><li>LLM entegrasyonu</li><li>Makine öğrenmesi</li><li>Bot</li></ul></div><span class="svc-spacer"></span></div></div></div>
+        </li>
+        <li class="svc">
+          <button aria-expanded="false" aria-controls="svc-6"><span class="kind">Süreklilik</span><h3>Bakım ve <em>büyüme</em></h3><span class="plus" aria-hidden="true">+</span></button>
+          <div class="svc-body" id="svc-6"><div><div class="svc-inner"><span></span><div><p>Her projede teslim sonrası ücretsiz destek. Sonrasında isterseniz güncelleme, güvenlik, içerik ve SEO için aylık planlar.</p><ul class="tags"><li>Ücretsiz destek</li><li>Aylık plan</li><li>Güvenlik</li></ul></div><span class="svc-spacer"></span></div></div></div>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="section" style="padding-top:0">
+    <div class="wrap">
+      <p class="statement" id="statement">Şablon yok. Kısayol yok. Her proje <em>sıfırdan,</em> işinize göre kodlanır.</p>
+      <div class="facts">
+        <div class="fact"><b>95+</b><span>Her teslimatta hedeflediğimiz Lighthouse performans skoru</span></div>
+        <div class="fact"><b>%100</b><span>Kod, alan adı ve hesaplar sizin adınıza</span></div>
+        <div class="fact"><b>1</b><span>Tasarımdan reklama kadar tek muhatap</span></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="projeler" style="padding-top:0">
+    <div class="wrap">
+      <div class="sec-head reveal">
+        <span class="label">Projeler</span>
+        <div><h2>Mockup değil, <em>canlı ürünler.</em></h2></div>
+      </div>
+      <div class="work">
+        <article class="case wide reveal">
+          <a class="cover" href="#" target="_blank" rel="noopener" aria-label="Finicify Terminal">
+            <div class="cover-art" style="--art: radial-gradient(90% 120% at 85% 10%, #1f3b33, transparent 60%), radial-gradient(60% 80% at 10% 100%, #12201c, transparent 70%), #0a0f0d"></div>
+            <div class="cover-shot"><img src="assets/finicify-report-builder.webp" alt="Finicify Terminal rapor oluşturucu" width="1600" height="1000" loading="lazy" decoding="async"></div><div class="cover-shot second"><img src="assets/finicify-finbot.webp" alt="Finicify Finbot yatırım asistanı" width="1600" height="1000" loading="lazy" decoding="async"></div>
+            <span class="cover-name">Finicify <em>Terminal</em></span>
+          </a>
+          <div class="case-meta"><div><h3>Yatırım analizi platformu</h3><p>Fon, hisse ve kripto için veri odaklı analiz. TEFAS ve KAP verisi, yapay zekâ asistanı, otomatik PDF raporlama.</p></div><div class="case-tags"><span>Finicify Teknoloji A.Ş.</span><span>Web · AI</span><a class="case-link" href="#" target="_blank" rel="noopener">Canlı site ↗</a></div></div>
+        </article>
+        <article class="case reveal">
+          <a class="cover" href="#" target="_blank" rel="noopener" aria-label="IR Intelligence">
+            <div class="cover-art" style="--art: radial-gradient(100% 120% at 100% 0%, #1c2740, transparent 60%), #090b10"></div>
+            <div class="cover-shot"><img src="assets/finicify-ir-intelligence.webp" alt="Finicify IR Intelligence hisseyi tutan fonlar ekranı" width="1600" height="1000" loading="lazy" decoding="async"></div>
+            <span class="cover-name">IR <em>Intelligence</em></span>
+          </a>
+          <div class="case-meta"><div><h3>Yatırımcı ilişkileri platformu</h3><p>Halka açık şirketler için çok rollü yönetim paneli ve raporlama.</p></div><div class="case-tags"><span>Finicify</span><span>SaaS</span><a class="case-link" href="#" target="_blank" rel="noopener">Canlı ↗</a></div></div>
+        </article>
+        <article class="case reveal">
+          <a class="cover" href="#" target="_blank" rel="noopener" aria-label="Finicify IR Web">
+            <div class="cover-art" style="--art: radial-gradient(90% 110% at 20% 0%, #3a3122, transparent 60%), #0e0c09"></div>
+            <div class="cover-ui" aria-hidden="true"><svg viewBox="0 0 320 200" fill="none"><rect x="16" y="16" width="80" height="8" rx="4" fill="rgba(255,255,255,.35)"/><circle cx="80" cy="120" r="10" fill="rgba(255,255,255,.25)"/><circle cx="130" cy="90" r="16" fill="rgba(242,200,120,.55)"/><circle cx="190" cy="130" r="8" fill="rgba(255,255,255,.25)"/><circle cx="230" cy="70" r="12" fill="rgba(255,255,255,.25)"/><circle cx="270" cy="110" r="6" fill="rgba(255,255,255,.25)"/><path d="M24 176 H300 M24 40 V176" stroke="rgba(255,255,255,.15)"/></svg></div>
+            <span class="cover-name">IR <em>Web</em></span>
+          </a>
+          <div class="case-meta"><div><h3>Yatırımcı ilişkileri web sitesi</h3><p>Şirketin kurumsal kimliğine uygun yatırımcı ilişkileri bölümü. Kurulum, içerik ve aylık yönetim.</p></div><div class="case-tags"><span>Finicify</span><span>Web · CMS</span><a class="case-link" href="#" target="_blank" rel="noopener">Canlı ↗</a></div></div>
+        </article>
+        <article class="case reveal">
+          <a class="cover" href="#" target="_blank" rel="noopener" aria-label="Mentora">
+            <div class="cover-art" style="--art: radial-gradient(100% 120% at 90% 100%, #3b2430, transparent 60%), #0f0a0c"></div>
+            <div class="cover-shot"><img src="assets/mentora.webp" alt="Mentora ana sayfa" width="1367" height="809" loading="lazy" decoding="async"></div>
+            <span class="cover-name"><em>Mentora</em></span>
+          </a>
+          <div class="case-meta"><div><h3>Eğitim platformu</h3><p>Veli, öğrenci ve mentor buluşması. Ders planlama, online ders, yapay zekâ ile özet ve quiz.</p></div><div class="case-tags"><span>Aurion Ventures LLC</span><span>Web · iOS · Android</span><a class="case-link" href="#" target="_blank" rel="noopener">Canlı ↗</a></div></div>
+        </article>
+        <article class="case reveal">
+          <a class="cover" href="#" target="_blank" rel="noopener" aria-label="INFADS">
+            <div class="cover-art" style="--art: radial-gradient(100% 120% at 0% 0%, #2c1f3d, transparent 60%), #0b0910"></div>
+            <div class="cover-ui" aria-hidden="true"><svg viewBox="0 0 320 200" fill="none"><rect x="16" y="16" width="64" height="8" rx="4" fill="rgba(255,255,255,.35)"/><g fill="rgba(255,255,255,.07)"><rect x="16" y="40" width="92" height="140" rx="8"/><rect x="114" y="40" width="92" height="140" rx="8"/><rect x="212" y="40" width="92" height="140" rx="8"/></g><g fill="rgba(255,255,255,.3)"><circle cx="62" cy="76" r="18"/><circle cx="160" cy="76" r="18"/><circle cx="258" cy="76" r="18"/></g><g fill="rgba(255,255,255,.18)"><rect x="32" y="110" width="60" height="6" rx="3"/><rect x="130" y="110" width="60" height="6" rx="3"/><rect x="228" y="110" width="60" height="6" rx="3"/></g><rect x="32" y="150" width="60" height="16" rx="8" fill="rgba(200,170,255,.5)"/></svg></div>
+            <span class="cover-name">INF<em>ADS</em></span>
+          </a>
+          <div class="case-meta"><div><h3>Influencer pazaryeri</h3><p>Markalar ve içerik üreticileri için etkileşim analizi, kampanya yönetimi ve satış takibi.</p></div><div class="case-tags"><span>Aurion Ventures LLC</span><span>Web</span><a class="case-link" href="#" target="_blank" rel="noopener">Canlı ↗</a></div></div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="kimler-icin" style="padding-top:0">
+    <div class="wrap">
+      <div class="sec-head reveal">
+        <span class="label">Kimler için</span>
+        <div><h2>Sektörünüzün <em>kurallarını</em> bilerek.</h2></div>
+      </div>
+      <ul class="aud">
+        <li><h3>Hukuk büroları</h3><p>Avukatlık reklam yasağına uygun, güven veren, bilgilendirici siteler.</p></li>
+        <li><h3>Poliklinik ve <em>diş klinikleri</em></h3><p>Hekim ve tedavi sayfaları, randevu talebi, Google Haritalar'da görünürlük.</p></li>
+        <li><h3>Saç ekimi ve <em>sağlık turizmi</em></h3><p>Yurt dışından hasta için çok dilli site, çok dilli SEO, WhatsApp ile hızlı dönüş.</p></li>
+        <li><h3>Girişimler ve <em>uygulama fikirleri</em></h3><p>Fikirden çalışan ürüne: MVP, mobil uygulama, web platformu.</p></li>
+        <li><h3>Sitesi <em>eskimiş</em> işletmeler</h3><p>Yavaş, mobilde bozuk, Google'da bulunmayan siteleri baştan yeniliyoruz.</p></li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="section" id="surec" style="padding-top:0">
+    <div class="wrap">
+      <div class="sec-head reveal">
+        <span class="label">Süreç</span>
+        <div><h2>Net kapsam. <em>Net takvim.</em></h2></div>
+      </div>
+      <ol class="steps">
+        <li><h3>Ücretsiz analiz</h3><p>Sitenizi, rakiplerinizi ve Google'daki durumunuzu inceleriz.</p></li>
+        <li><h3>Teklif ve plan</h3><p>Kapsam, takvim ve fiyat yazılı netleşir. Sürpriz maliyet yok.</p></li>
+        <li><h3>Tasarım</h3><p>Markanıza özel arayüz. Onayınız olmadan koda geçmeyiz.</p></li>
+        <li><h3>Geliştirme ve yayın</h3><p>Test edilmiş kod, kurulu Analytics ve Search Console ile yayın.</p></li>
+        <li><h3>Destek ve büyüme</h3><p>Ücretsiz destek, ardından isterseniz aylık bakım, SEO ve reklam.</p></li>
+      </ol>
+    </div>
+  </section>
+
+  <section class="section audit" id="analiz">
+    <div class="wrap audit-grid">
+      <h2>Sitenizi <em>ücretsiz</em> analiz edelim.</h2>
+      <form class="audit-form" id="audit-form">
+        <p>Adresinizi bırakın. Hız, mobil uyum ve Google görünürlüğü üzerine kısa bir değerlendirme gönderelim. Taahhüt yok.</p>
+        <div class="url-field"><label for="audit-url" class="visually-hidden" style="position:absolute;left:-9999px">Site adresi</label><input id="audit-url" type="text" inputmode="url" placeholder="siteniz.com" autocomplete="url"><button class="btn btn-solid" type="submit">Analiz iste <span class="arr" aria-hidden="true">→</span></button></div>
+        <ul class="checklist"><li>Sayfa hızı</li><li>Mobil uyum</li><li>Teknik SEO</li><li>Rakip karşılaştırma</li></ul>
+      </form>
+    </div>
+  </section>
+
+  <section class="section" id="sss">
+    <div class="wrap">
+      <div class="sec-head reveal">
+        <span class="label">SSS</span>
+        <div><h2>Sık sorulan <em>sorular.</em></h2></div>
+      </div>
+      <div class="faq">
+        <details><summary>Bir web sitesi ne kadar sürede teslim edilir?</summary><p>Kurumsal bir site genelde 2-4 haftada, kapsamlı projeler ve uygulamalar kapsama göre daha uzun sürede teslim edilir. Takvimi teklifle birlikte net olarak veririz.</p></details>
+        <details><summary>Fiyatlarınız nedir?</summary><p>Her işletmenin ihtiyacı farklı olduğu için sabit paket satmıyoruz. Ücretsiz analizden sonra proje bazında net bir teklif veriyoruz.</p></details>
+        <details><summary>SEO ne zaman sonuç verir?</summary><p>Teknik iyileştirmelerin etkisi birkaç hafta içinde görülmeye başlar. Rekabetçi aramalarda kalıcı sıralama genelde 3-6 ay düzenli çalışma ister.</p></details>
+        <details><summary>Site ve kodlar kime ait olur?</summary><p>Size. Alan adı, hosting, kaynak kod, Google Analytics, Search Console ve reklam hesapları işletmenizin adına açılır ve teslim edilir.</p></details>
+        <details><summary>Teslimden sonra destek veriyor musunuz?</summary><p>Evet. Her projede teslim sonrası ücretsiz destek süresi var. Sonrasında isterseniz bakım, güncelleme ve içerik için aylık planlarımızdan birini seçebilirsiniz.</p></details>
+      </div>
+    </div>
+  </section>
+
+  <section class="section contact" id="iletisim" style="padding-top:0">
+    <div class="wrap">
+      <span class="label">İletişim</span>
+      <h2 style="margin-top:28px">Premium bir şey <em>inşa edelim.</em></h2>
+      <div class="contact-grid">
+        <ul class="info">
+          <li><span class="k">E-posta</span><a class="v" href="mailto:info@reys.xyz">info@reys.xyz</a></li>
+          <li><span class="k">Telefon</span><a class="v" href="tel:+905307170105">+90 530 717 01 05</a></li>
+          <li><span class="k">WhatsApp</span><a class="v" href="https://wa.me/905307170105" target="_blank" rel="noopener">Mesaj gönder ↗</a></li>
+          <li><span class="k">Ofis</span><span class="v">Akasya Plaza, Acıbadem, İstanbul</span></li>
+        </ul>
+        <form class="lead" id="contact-form" data-endpoint="" novalidate>
+          <div class="row2">
+            <div class="field"><label for="f-name">Ad soyad</label><input id="f-name" name="ad" type="text" autocomplete="name" required></div>
+            <div class="field"><label for="f-company">İşletme</label><input id="f-company" name="isletme" type="text" autocomplete="organization"></div>
+          </div>
+          <div class="row2">
+            <div class="field"><label for="f-email">E-posta</label><input id="f-email" name="eposta" type="email" autocomplete="email" required></div>
+            <div class="field"><label for="f-phone">Telefon</label><input id="f-phone" name="telefon" type="tel" autocomplete="tel"></div>
+          </div>
+          <div class="field"><label for="f-site">Mevcut siteniz</label><input id="f-site" name="site" type="text" inputmode="url" placeholder="varsa"></div>
+          <fieldset>
+            <legend>İlgilendiğiniz hizmetler</legend>
+            <div class="chips">
+              <label class="chip"><input id="s-web" type="checkbox" name="hizmet" value="Web sitesi"><span>Web sitesi</span></label>
+              <label class="chip"><input id="s-app" type="checkbox" name="hizmet" value="Uygulama"><span>Uygulama</span></label>
+              <label class="chip"><input id="s-seo" type="checkbox" name="hizmet" value="SEO"><span>SEO</span></label>
+              <label class="chip"><input id="s-ads" type="checkbox" name="hizmet" value="Google Ads"><span>Google Ads</span></label>
+              <label class="chip"><input id="s-ai" type="checkbox" name="hizmet" value="Yapay zekâ"><span>Yapay zekâ</span></label>
+              <label class="chip"><input id="s-audit" type="checkbox" name="hizmet" value="Ücretsiz analiz"><span>Ücretsiz analiz</span></label>
+            </div>
+          </fieldset>
+          <div class="field"><label for="f-msg">Projeniz</label><textarea id="f-msg" name="mesaj" rows="3"></textarea></div>
+          <label class="consent"><input id="f-kvkk" type="checkbox" name="kvkk" required><span><a href="kvkk.html" target="_blank">KVKK Aydınlatma Metni</a>'ni okudum, bilgilerimin bana dönüş yapılması amacıyla işlenmesini kabul ediyorum.</span></label>
+          <div class="form-foot">
+            <button type="submit" class="btn btn-solid">Gönder <span class="arr" aria-hidden="true">→</span></button>
+            <p class="form-status" id="form-status" role="status"></p>
+          </div>
+        </form>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <div class="foot-top">
+      <p style="max-width:34ch">Sıfırdan kodlanan web siteleri, uygulamalar, SEO ve Google Ads. İstanbul'dan Türkiye'ye ve dünyaya.</p>
+      <div><h4>Menü</h4><ul><li><a href="#hizmetler">Hizmetler</a></li><li><a href="#projeler">Projeler</a></li><li><a href="#surec">Süreç</a></li><li><a href="#iletisim">İletişim</a></li></ul></div>
+      <div><h4>İletişim</h4><ul><li><a href="mailto:info@reys.xyz">info@reys.xyz</a></li><li><a href="tel:+905307170105">+90 530 717 01 05</a></li><li>Akasya Plaza, Acıbadem</li></ul></div>
+      <div><h4>Yasal</h4><ul><li><a href="kvkk.html">KVKK Aydınlatma Metni</a></li><li><a href="kvkk.html#gizlilik">Gizlilik Politikası</a></li><li><a href="kvkk.html#cerez">Çerez Politikası</a></li></ul></div>
+    </div>
+    <div class="wordmark" aria-hidden="true">MARKA<em>.</em></div>
+    <div class="foot-bottom"><span>© <span id="year">2026</span> [ŞİRKET UNVANI]. Tüm hakları saklıdır.</span><span>İstanbul</span></div>
+  </div>
+</footer>
+
+<a class="wa" href="https://wa.me/905307170105" target="_blank" rel="noopener" aria-label="WhatsApp ile yazın">
+  <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38a9.9 9.9 0 0 0 4.74 1.21h.01c5.46 0 9.9-4.45 9.9-9.91A9.86 9.86 0 0 0 12.04 2Zm5.8 14.06c-.24.68-1.43 1.32-1.97 1.37-.5.05-1.13.07-1.83-.11-.42-.13-.96-.31-1.65-.61-2.9-1.25-4.79-4.17-4.94-4.36-.14-.19-1.18-1.57-1.18-3 0-1.42.75-2.12 1.01-2.41.27-.29.58-.36.78-.36h.56c.18 0 .42-.07.66.5.24.58.82 2 .89 2.15.07.14.12.31.02.5-.1.19-.14.31-.29.48-.14.17-.3.38-.43.51-.14.14-.29.3-.13.59.17.29.74 1.22 1.59 1.98 1.09.97 2.01 1.27 2.3 1.41.29.14.46.12.63-.07.17-.19.72-.84.92-1.13.19-.29.38-.24.65-.14.26.1 1.68.79 1.97.94.29.14.48.22.55.34.07.12.07.68-.17 1.36Z"/></svg>
+</a>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/lenis@1.1.13/dist/lenis.min.js"></script>
+<script>
+(function () {
+  var reduce = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  var fine = window.matchMedia('(pointer: fine)').matches;
+
+  /* header + menu */
+  var header = document.getElementById('header');
+  function onScroll() { header.classList.toggle('scrolled', window.scrollY > 40); }
+  window.addEventListener('scroll', onScroll, { passive: true }); onScroll();
+  var menuBtn = document.getElementById('menu-btn'), links = document.getElementById('nav-links');
+  menuBtn.addEventListener('click', function () {
+    var open = links.classList.toggle('open');
+    menuBtn.setAttribute('aria-expanded', open ? 'true' : 'false');
+  });
+  links.addEventListener('click', function (e) {
+    if (e.target.tagName === 'A') { links.classList.remove('open'); menuBtn.setAttribute('aria-expanded', 'false'); }
+  });
+  document.getElementById('year').textContent = new Date().getFullYear();
+
+  /* services accordion */
+  document.querySelectorAll('.svc button').forEach(function (b) {
+    b.addEventListener('click', function () {
+      var li = b.parentElement, open = !li.classList.contains('open');
+      li.classList.toggle('open', open);
+      b.setAttribute('aria-expanded', open ? 'true' : 'false');
+    });
+  });
+
+  /* smooth scroll */
+  var lenis = null;
+  if (!reduce && window.Lenis) {
+    lenis = new Lenis({ lerp: 0.09 });
+    function raf(t) { lenis.raf(t); requestAnimationFrame(raf); }
+    requestAnimationFrame(raf);
+    if (window.ScrollTrigger) lenis.on('scroll', ScrollTrigger.update);
+  }
+  document.querySelectorAll('a[href^="#"]').forEach(function (a) {
+    a.addEventListener('click', function (e) {
+      var id = a.getAttribute('href');
+      var el = id === '#top' ? document.body : document.querySelector(id);
+      if (!el) return;
+      e.preventDefault();
+      if (lenis) lenis.scrollTo(el, { offset: -70 });
+      else el.scrollIntoView({ behavior: reduce ? 'auto' : 'smooth' });
+    });
+  });
+
+  /* animations */
+  if (!reduce && window.gsap) {
+    gsap.registerPlugin(window.ScrollTrigger);
+    gsap.from('#hero-title .ln > span', { yPercent: 110, duration: 1.3, ease: 'expo.out', stagger: 0.09, delay: 0.15 });
+    gsap.from('.hero-row, .hero-foot, .hero .label', { y: 24, opacity: 0, duration: 1.1, ease: 'expo.out', delay: 0.6, stagger: 0.08 });
+    gsap.utils.toArray('.reveal').forEach(function (el) {
+      gsap.from(el, { y: 60, opacity: 0.3, duration: 1.2, ease: 'expo.out', scrollTrigger: { trigger: el, start: 'top 88%' } });
+    });
+    gsap.utils.toArray('.svc, .aud li, .steps li, .faq details, .fact').forEach(function (el) {
+      gsap.from(el, { y: 30, opacity: 0.3, duration: 1, ease: 'expo.out', scrollTrigger: { trigger: el, start: 'top 92%' } });
+    });
+    gsap.utils.toArray('.cover-art').forEach(function (el) {
+      gsap.fromTo(el, { yPercent: -6 }, { yPercent: 6, ease: 'none', scrollTrigger: { trigger: el.parentElement, start: 'top bottom', end: 'bottom top', scrub: true } });
+    });
+    gsap.from('.wordmark', { yPercent: 40, duration: 1.4, ease: 'expo.out', scrollTrigger: { trigger: 'footer', start: 'top 85%' } });
+
+    /* statement word reveal */
+    var st = document.getElementById('statement');
+    var words = [];
+    (function split(node) {
+      Array.prototype.slice.call(node.childNodes).forEach(function (n) {
+        if (n.nodeType === 3) {
+          var frag = document.createDocumentFragment();
+          n.textContent.split(/(\s+)/).forEach(function (part) {
+            if (!part) return;
+            if (/^\s+$/.test(part)) { frag.appendChild(document.createTextNode(part)); return; }
+            var s = document.createElement('span'); s.className = 'w'; s.textContent = part; words.push(s); frag.appendChild(s);
+          });
+          node.replaceChild(frag, n);
+        } else if (n.nodeType === 1) split(n);
+      });
+    })(st);
+    st.classList.add('js-ready');
+    ScrollTrigger.create({
+      trigger: st, start: 'top 80%', end: 'bottom 45%', scrub: true,
+      onUpdate: function (self) {
+        var k = Math.round(self.progress * words.length);
+        words.forEach(function (w, i) { w.classList.toggle('on', i < k); });
+      }
+    });
+  }
+
+  /* custom cursor */
+  if (fine && !reduce) {
+    document.documentElement.classList.add('has-cursor');
+    var dot = document.querySelector('.cursor'), ring = document.querySelector('.cursor-ring');
+    var mx = innerWidth / 2, my = innerHeight / 2, rx = mx, ry = my;
+    window.addEventListener('mousemove', function (e) { mx = e.clientX; my = e.clientY; dot.style.transform = 'translate(' + mx + 'px,' + my + 'px)'; });
+    (function loop() { rx += (mx - rx) * 0.15; ry += (my - ry) * 0.15; ring.style.transform = 'translate(' + rx + 'px,' + ry + 'px)'; requestAnimationFrame(loop); })();
+    document.addEventListener('mouseover', function (e) { ring.classList.toggle('hover', !!e.target.closest('a, button, summary, label.chip')); });
+  }
+
+  /* hero WebGL light */
+  (function () {
+    var c = document.getElementById('hero-gl');
+    var gl = c.getContext('webgl', { antialias: false, alpha: false });
+    if (!gl) { c.remove(); return; }
+    var vs = 'attribute vec2 p;void main(){gl_Position=vec4(p,0.,1.);}';
+    var fs = [
+      'precision mediump float;uniform vec2 r;uniform float t;uniform vec2 m;',
+      'float h(vec2 p){return fract(sin(dot(p,vec2(127.1,311.7)))*43758.5453);}',
+      'float n(vec2 p){vec2 i=floor(p),f=fract(p);vec2 u=f*f*(3.-2.*f);return mix(mix(h(i),h(i+vec2(1.,0.)),u.x),mix(h(i+vec2(0.,1.)),h(i+vec2(1.,1.)),u.x),u.y);}',
+      'float fbm(vec2 p){float v=0.,a=.5;for(int i=0;i<5;i++){v+=a*n(p);p*=2.03;a*=.5;}return v;}',
+      'void main(){vec2 uv=gl_FragCoord.xy/r;vec2 p=(gl_FragCoord.xy-.5*r)/r.y;float tt=t*.05;',
+      'vec2 q=vec2(fbm(p*1.3+tt),fbm(p*1.3-tt+3.1));',
+      'vec2 w=vec2(fbm(p*1.7+q*2.2+vec2(1.7,9.2)+tt*1.4),fbm(p*1.7+q*2.2+vec2(8.3,2.8)-tt));',
+      'float f=fbm(p*1.2+w*1.9+(m-.5)*.25);',
+      'float b=sin(f*11.+tt*3.)*.5+.5;float l=pow(b,7.)*smoothstep(.25,.85,f);',
+      'vec3 col=vec3(.018)+vec3(.96,.94,.9)*l*.5+vec3(.2,.21,.24)*f*f*.55;',
+      'col*=smoothstep(1.4,.15,length((p-vec2(.35,.15))*vec2(.75,1.)));',
+      'gl_FragColor=vec4(col,1.);}'
+    ].join('');
+    function sh(type, src) { var s = gl.createShader(type); gl.shaderSource(s, src); gl.compileShader(s); return gl.getShaderParameter(s, gl.COMPILE_STATUS) ? s : null; }
+    var v = sh(gl.VERTEX_SHADER, vs), f = sh(gl.FRAGMENT_SHADER, fs);
+    if (!v || !f) { c.remove(); return; }
+    var pr = gl.createProgram(); gl.attachShader(pr, v); gl.attachShader(pr, f); gl.linkProgram(pr);
+    if (!gl.getProgramParameter(pr, gl.LINK_STATUS)) { c.remove(); return; }
+    gl.useProgram(pr);
+    var buf = gl.createBuffer(); gl.bindBuffer(gl.ARRAY_BUFFER, buf);
+    gl.bufferData(gl.ARRAY_BUFFER, new Float32Array([-1,-1, 1,-1, -1,1, 1,1]), gl.STATIC_DRAW);
+    var loc = gl.getAttribLocation(pr, 'p'); gl.enableVertexAttribArray(loc); gl.vertexAttribPointer(loc, 2, gl.FLOAT, false, 0, 0);
+    var uR = gl.getUniformLocation(pr, 'r'), uT = gl.getUniformLocation(pr, 't'), uM = gl.getUniformLocation(pr, 'm');
+    var mouse = [0.5, 0.5], target = [0.5, 0.5], visible = true, t0 = performance.now();
+    function size() {
+      var s = Math.min(window.devicePixelRatio || 1, 1.5) * 0.6;
+      c.width = Math.max(1, Math.floor(c.clientWidth * s)); c.height = Math.max(1, Math.floor(c.clientHeight * s));
+      gl.viewport(0, 0, c.width, c.height);
+    }
+    size(); window.addEventListener('resize', size);
+    window.addEventListener('mousemove', function (e) { target = [e.clientX / innerWidth, 1 - e.clientY / innerHeight]; });
+    if ('IntersectionObserver' in window) new IntersectionObserver(function (es) { visible = es[0].isIntersecting; }).observe(c);
+    function draw(now) {
+      mouse[0] += (target[0] - mouse[0]) * 0.03; mouse[1] += (target[1] - mouse[1]) * 0.03;
+      gl.uniform2f(uR, c.width, c.height); gl.uniform1f(uT, 20 + (now - t0) / 1000); gl.uniform2f(uM, mouse[0], mouse[1]);
+      gl.drawArrays(gl.TRIANGLE_STRIP, 0, 4);
+    }
+    if (reduce) { draw(t0); return; }
+    (function loop(now) { if (visible) draw(now || t0); requestAnimationFrame(loop); })();
+  })();
+
+  /* audit mini form -> contact form */
+  document.getElementById('audit-form').addEventListener('submit', function (e) {
+    e.preventDefault();
+    var url = document.getElementById('audit-url').value.trim();
+    document.getElementById('f-site').value = url;
+    document.getElementById('s-audit').checked = true;
+    var target = document.getElementById('iletisim');
+    if (lenis) lenis.scrollTo(target, { offset: -70 }); else target.scrollIntoView({ behavior: 'smooth' });
+    setTimeout(function () { document.getElementById('f-name').focus({ preventScroll: true }); }, 900);
+  });
+
+  /* contact form */
+  var form = document.getElementById('contact-form'), status = document.getElementById('form-status');
+  function show(msg, ok) { status.textContent = msg; status.className = 'form-status' + (ok ? ' ok' : ''); }
+  form.addEventListener('submit', function (e) {
+    e.preventDefault();
+    var name = form.elements['ad'].value.trim(), email = form.elements['eposta'].value.trim();
+    if (!name || !/^[^@\s]+@[^@\s]+\.[^@\s]+$/.test(email)) { show('Lütfen adınızı ve geçerli bir e-posta adresi girin.'); return; }
+    if (!form.elements['kvkk'].checked) { show('Devam etmek için KVKK onayını işaretleyin.'); return; }
+    var endpoint = form.getAttribute('data-endpoint');
+    if (!endpoint) { show('Form henüz bir e-posta servisine bağlı değil. Şimdilik info@reys.xyz adresine ya da WhatsApp\'tan yazın.'); return; }
+    var btn = form.querySelector('button[type="submit"]'); btn.disabled = true;
+    fetch(endpoint, { method: 'POST', body: new FormData(form), headers: { 'Accept': 'application/json' } })
+      .then(function (r) { if (!r.ok) throw new Error(); form.reset(); show('Mesajınız alındı. En kısa sürede dönüş yapacağız.', true); })
+      .catch(function () { show('Mesaj gönderilemedi. Lütfen info@reys.xyz adresine ya da WhatsApp\'tan yazın.'); })
+      .finally(function () { btn.disabled = false; });
+  });
+})();
+</script>
+</body>
+</html>
