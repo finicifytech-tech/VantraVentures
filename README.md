@@ -10,12 +10,10 @@ Statik site, derleme gerekmez. Dosyaları herhangi bir statik hostinge yükleyin
 ## Yayına almadan önce değişecekler
 | Yer tutucu | Nerede | Ne olacak |
 |---|---|---|
-| `MARKA` | index.html, kvkk.html | Ajans adı |
 | `ornekdomain.com` | index.html, kvkk.html, robots.txt, sitemap.xml | Gerçek domain |
 | `[ŞİRKET UNVANI]`, `[Tam adres]` | index.html altbilgi, kvkk.html | Şirket unvanı ve adres |
 | `href="#"` "Canlı ↗" | index.html Projeler | Canlı proje linkleri |
 | `data-endpoint=""` | index.html form | Form servisi URL'si (Formspree / Web3Forms) |
-| `og-image.jpg` | kök klasör | 1200×630 paylaşım görseli |
 | `en/` | — | İngilizce sürüm (sonraki adım) |
 
 ## Notlar
