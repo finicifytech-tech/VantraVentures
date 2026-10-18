@@ -1,6 +1,6 @@
 /* Çerez onayı + Google Analytics 4 (KVKK: analiz çerezleri yalnızca açık onayla yüklenir) */
 (function () {
-  var GA_ID = ''; // GA4 Ölçüm Kimliği, ör. 'G-XXXXXXXXXX'. Boşken bant görünmez, hiçbir şey yüklenmez.
+  var GA_ID = 'G-4JTQPJCKBL'; // GA4 Ölçüm Kimliği, ör. 'G-XXXXXXXXXX'. Boşken bant görünmez, hiçbir şey yüklenmez.
   if (!GA_ID) return;
 
   var en = document.documentElement.lang === 'en';
