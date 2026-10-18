@@ -609,7 +609,11 @@ footer { border-top: 1px solid var(--line); padding-top: 64px; overflow: hidden;
           <li><span class="k">WhatsApp</span><a class="v" href="https://wa.me/905307170105" target="_blank" rel="noopener">Mesaj gönder ↗</a></li>
           <li><span class="k">Ofis</span><span class="v">Akasya Plaza, Acıbadem, İstanbul</span></li>
         </ul>
-        <form class="lead" id="contact-form" data-endpoint="" novalidate>
+        <form class="lead" id="contact-form" data-endpoint="https://api.web3forms.com/submit" novalidate>
+          <input type="hidden" name="access_key" value="65ae5d31-ce35-4c15-8f7e-ef3a935fbfad">
+          <input type="hidden" name="subject" value="Yeni iletişim formu (TR) - vantraventures.com">
+          <input type="hidden" name="from_name" value="vantraventures.com">
+          <input type="checkbox" name="botcheck" tabindex="-1" autocomplete="off" style="display:none">
           <div class="row2">
             <div class="field"><label for="f-name">Ad soyad</label><input id="f-name" name="ad" type="text" autocomplete="name" required></div>
             <div class="field"><label for="f-company">İşletme</label><input id="f-company" name="isletme" type="text" autocomplete="organization"></div>
@@ -831,7 +835,10 @@ footer { border-top: 1px solid var(--line); padding-top: 64px; overflow: hidden;
     var endpoint = form.getAttribute('data-endpoint');
     if (!endpoint) { show('Form henüz bir e-posta servisine bağlı değil. Şimdilik info@vantraventures.com adresine ya da WhatsApp\'tan yazın.'); return; }
     var btn = form.querySelector('button[type="submit"]'); btn.disabled = true;
-    fetch(endpoint, { method: 'POST', body: new FormData(form), headers: { 'Accept': 'application/json' } })
+    var data = new FormData(form);
+    data.set('hizmet', data.getAll('hizmet').join(', '));
+    data.set('replyto', email);
+    fetch(endpoint, { method: 'POST', body: data, headers: { 'Accept': 'application/json' } })
       .then(function (r) { if (!r.ok) throw new Error(); form.reset(); show('Mesajınız alındı. En kısa sürede dönüş yapacağız.', true); })
       .catch(function () { show('Mesaj gönderilemedi. Lütfen info@vantraventures.com adresine ya da WhatsApp\'tan yazın.'); })
       .finally(function () { btn.disabled = false; });
