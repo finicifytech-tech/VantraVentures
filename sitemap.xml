@@ -1,9 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://www.ornekdomain.com/</loc>
-    <xhtml:link rel="alternate" hreflang="tr" href="https://www.ornekdomain.com/"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.ornekdomain.com/en/"/>
-    <lastmod>2026-10-17</lastmod>
+    <loc>https://vantraventures.com/</loc>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://vantraventures.com/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://vantraventures.com/en/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://vantraventures.com/"/>
+    <lastmod>2026-10-18</lastmod>
+  </url>
+  <url>
+    <loc>https://vantraventures.com/en/</loc>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://vantraventures.com/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://vantraventures.com/en/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://vantraventures.com/"/>
+    <lastmod>2026-10-18</lastmod>
   </url>
 </urlset>
