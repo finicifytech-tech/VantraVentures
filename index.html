@@ -279,6 +279,12 @@ em, .serif { font-family: var(--font-serif); font-style: italic; font-weight: 40
 .checklist { display: flex; flex-wrap: wrap; gap: 8px 20px; font-size: 0.85rem; color: var(--muted); list-style: none; padding: 0; margin: 0; }
 .checklist li::before { content: "✓"; margin-right: 8px; color: var(--fg); }
 
+.more { display: inline-flex; gap: 8px; margin-top: 22px; font-size: 0.92rem; color: var(--fg); border-bottom: 1px solid var(--line-strong); padding-bottom: 2px; transition: border-color .3s; }
+.more:hover { border-color: var(--fg); }
+.audit-form .more { justify-self: start; margin-top: 4px; }
+.aud h3 a { transition: color .3s; }
+.aud h3 a:hover { color: var(--muted); }
+
 /* faq */
 .faq { border-top: 1px solid var(--line); }
 .faq details { border-bottom: 1px solid var(--line); }
@@ -323,7 +329,7 @@ legend { font-size: 0.78rem; letter-spacing: 0.12em; text-transform: uppercase; 
 
 /* footer */
 footer { border-top: 1px solid var(--line); padding-top: 64px; overflow: hidden; }
-.foot-top { display: grid; grid-template-columns: minmax(0, 2fr) repeat(3, minmax(0, 1fr)); gap: 32px; color: var(--muted); font-size: 0.92rem; }
+.foot-top { display: grid; grid-template-columns: minmax(0, 1.6fr) repeat(4, minmax(0, 1fr)); gap: 32px; color: var(--muted); font-size: 0.92rem; }
 .foot-top h4 { margin: 0 0 14px; font-size: 0.75rem; letter-spacing: 0.16em; text-transform: uppercase; color: var(--dim); font-weight: 400; }
 .foot-top ul { list-style: none; padding: 0; margin: 0; display: grid; gap: 8px; }
 .foot-top a:hover { color: var(--fg); }
@@ -346,7 +352,7 @@ footer { border-top: 1px solid var(--line); padding-top: 64px; overflow: hidden;
 /* responsive */
 @media (max-width: 1080px) {
   .steps { grid-template-columns: repeat(3, minmax(0, 1fr)); row-gap: 48px; }
-  .foot-top { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+  .foot-top { grid-template-columns: repeat(4, minmax(0, 1fr)); }
   .foot-top > :first-child { grid-column: 1 / -1; }
 }
 @media (max-width: 900px) {
@@ -451,15 +457,15 @@ footer { border-top: 1px solid var(--line); padding-top: 64px; overflow: hidden;
       <ul class="svc-list">
         <li class="svc open">
           <button aria-expanded="true" aria-controls="svc-1"><span class="kind">Anahtar teslim</span><h3>Web <em>siteleri</em></h3><span class="plus" aria-hidden="true">+</span></button>
-          <div class="svc-body" id="svc-1"><div><div class="svc-inner"><span></span><div><p>Kurumsal site, landing page, e-ticaret. Hazır tema ya da sayfa oluşturucu kullanmıyoruz; her satır markanıza göre yazılır. Hızlı açılır, her ekranda kusursuz görünür, Google'ın ölçütlerini karşılar.</p><ul class="tags"><li>Kurumsal site</li><li>Landing page</li><li>E-ticaret</li><li>Çok dilli</li><li>Yönetim paneli</li></ul></div><span class="svc-spacer"></span></div></div></div>
+          <div class="svc-body" id="svc-1"><div><div class="svc-inner"><span></span><div><p>Kurumsal site, landing page, e-ticaret. Hazır tema ya da sayfa oluşturucu kullanmıyoruz; her satır markanıza göre yazılır. Hızlı açılır, her ekranda kusursuz görünür, Google'ın ölçütlerini karşılar.</p><ul class="tags"><li>Kurumsal site</li><li>Landing page</li><li>E-ticaret</li><li>Çok dilli</li><li>Yönetim paneli</li></ul><a class="more" href="web-tasarim/">Web tasarım hizmeti <span aria-hidden="true">→</span></a></div><span class="svc-spacer"></span></div></div></div>
         </li>
         <li class="svc">
           <button aria-expanded="false" aria-controls="svc-2"><span class="kind">Fikirden mağazaya</span><h3>Mobil ve web <em>uygulamalar</em></h3><span class="plus" aria-hidden="true">+</span></button>
-          <div class="svc-body" id="svc-2"><div><div class="svc-inner"><span></span><div><p>iOS ve Android uygulamalar, web uygulamaları, SaaS platformları, Telegram Mini App'ler. Fikri alıyor, MVP'yi hızlıca çıkarıyor, ürünü büyütüyoruz. Her türlü fikir.</p><ul class="tags"><li>iOS &amp; Android</li><li>React Native</li><li>SaaS</li><li>Telegram Mini App</li><li>MVP</li></ul></div><span class="svc-spacer"></span></div></div></div>
+          <div class="svc-body" id="svc-2"><div><div class="svc-inner"><span></span><div><p>iOS ve Android uygulamalar, web uygulamaları, SaaS platformları, Telegram Mini App'ler. Fikri alıyor, MVP'yi hızlıca çıkarıyor, ürünü büyütüyoruz. Her türlü fikir.</p><ul class="tags"><li>iOS &amp; Android</li><li>React Native</li><li>SaaS</li><li>Telegram Mini App</li><li>MVP</li></ul><a class="more" href="mobil-uygulama-gelistirme/">Uygulama geliştirme <span aria-hidden="true">→</span></a></div><span class="svc-spacer"></span></div></div></div>
         </li>
         <li class="svc">
           <button aria-expanded="false" aria-controls="svc-3"><span class="kind">Organik büyüme</span><h3>SEO</h3><span class="plus" aria-hidden="true">+</span></button>
-          <div class="svc-body" id="svc-3"><div><div class="svc-inner"><span></span><div><p>Teknik altyapı, içerik, yerel arama ve Google İşletme Profili. Müşterileriniz sizi aradığında ilk sayfada çıkmanız için çalışır, her ay raporlarız.</p><ul class="tags"><li>Teknik SEO</li><li>İçerik</li><li>Yerel SEO</li><li>Çok dilli SEO</li><li>Aylık rapor</li></ul></div><span class="svc-spacer"></span></div></div></div>
+          <div class="svc-body" id="svc-3"><div><div class="svc-inner"><span></span><div><p>Teknik altyapı, içerik, yerel arama ve Google İşletme Profili. Müşterileriniz sizi aradığında ilk sayfada çıkmanız için çalışır, her ay raporlarız.</p><ul class="tags"><li>Teknik SEO</li><li>İçerik</li><li>Yerel SEO</li><li>Çok dilli SEO</li><li>Aylık rapor</li></ul><a class="more" href="seo-hizmeti/">SEO hizmeti <span aria-hidden="true">→</span></a></div><span class="svc-spacer"></span></div></div></div>
         </li>
         <li class="svc">
           <button aria-expanded="false" aria-controls="svc-4"><span class="kind">Reklam</span><h3>Google <em>Ads</em></h3><span class="plus" aria-hidden="true">+</span></button>
@@ -546,9 +552,9 @@ footer { border-top: 1px solid var(--line); padding-top: 64px; overflow: hidden;
         <div><h2>Sektörünüzün <em>kurallarını</em> bilerek.</h2></div>
       </div>
       <ul class="aud">
-        <li><h3>Hukuk büroları</h3><p>Avukatlık reklam yasağına uygun, güven veren, bilgilendirici siteler.</p></li>
-        <li><h3>Poliklinik ve <em>diş klinikleri</em></h3><p>Hekim ve tedavi sayfaları, randevu talebi, Google Haritalar'da görünürlük.</p></li>
-        <li><h3>Saç ekimi ve <em>sağlık turizmi</em></h3><p>Yurt dışından hasta için çok dilli site, çok dilli SEO, WhatsApp ile hızlı dönüş.</p></li>
+        <li><h3><a href="hukuk-burosu-web-sitesi/">Hukuk büroları</a></h3><p>Avukatlık reklam yasağına uygun, güven veren, bilgilendirici siteler.</p></li>
+        <li><h3><a href="klinik-web-sitesi/">Poliklinik ve <em>diş klinikleri</em></a></h3><p>Hekim ve tedavi sayfaları, randevu talebi, Google Haritalar'da görünürlük.</p></li>
+        <li><h3><a href="klinik-web-sitesi/">Saç ekimi ve <em>sağlık turizmi</em></a></h3><p>Yurt dışından hasta için çok dilli site, çok dilli SEO, WhatsApp ile hızlı dönüş.</p></li>
         <li><h3>Girişimler ve <em>uygulama fikirleri</em></h3><p>Fikirden çalışan ürüne: MVP, mobil uygulama, web platformu.</p></li>
         <li><h3>Sitesi <em>eskimiş</em> işletmeler</h3><p>Yavaş, mobilde bozuk, Google'da bulunmayan siteleri baştan yeniliyoruz.</p></li>
       </ul>
@@ -578,6 +584,7 @@ footer { border-top: 1px solid var(--line); padding-top: 64px; overflow: hidden;
         <p>Adresinizi bırakın. Hız, mobil uyum ve Google görünürlüğü üzerine kısa bir değerlendirme gönderelim. Taahhüt yok.</p>
         <div class="url-field"><label for="audit-url" class="visually-hidden" style="position:absolute;left:-9999px">Site adresi</label><input id="audit-url" type="text" inputmode="url" placeholder="siteniz.com" autocomplete="url"><button class="btn btn-solid" type="submit">Analiz iste <span class="arr" aria-hidden="true">→</span></button></div>
         <ul class="checklist"><li>Sayfa hızı</li><li>Mobil uyum</li><li>Teknik SEO</li><li>Rakip karşılaştırma</li></ul>
+        <a class="more" href="ucretsiz-site-analizi/">Analizde neler inceleniyor? <span aria-hidden="true">→</span></a>
       </form>
     </div>
   </section>
@@ -650,6 +657,7 @@ footer { border-top: 1px solid var(--line); padding-top: 64px; overflow: hidden;
   <div class="wrap">
     <div class="foot-top">
       <p style="max-width:34ch">Sıfırdan kodlanan web siteleri, uygulamalar, SEO ve Google Ads. İstanbul'dan Türkiye'ye ve dünyaya.</p>
+      <div><h4>Hizmetler</h4><ul><li><a href="web-tasarim/">Web Tasarım</a></li><li><a href="mobil-uygulama-gelistirme/">Mobil Uygulama</a></li><li><a href="seo-hizmeti/">SEO Hizmeti</a></li><li><a href="klinik-web-sitesi/">Klinik Web Sitesi</a></li><li><a href="hukuk-burosu-web-sitesi/">Hukuk Bürosu Web Sitesi</a></li><li><a href="ucretsiz-site-analizi/">Ücretsiz Site Analizi</a></li></ul></div>
       <div><h4>Menü</h4><ul><li><a href="#hizmetler">Hizmetler</a></li><li><a href="#projeler">Projeler</a></li><li><a href="#surec">Süreç</a></li><li><a href="#iletisim">İletişim</a></li></ul></div>
       <div><h4>İletişim</h4><ul><li><a href="mailto:info@vantraventures.com">info@vantraventures.com</a></li><li><a href="tel:+905307170105">+90 530 717 01 05</a></li><li>Akasya Plaza, Acıbadem</li></ul></div>
       <div><h4>Yasal</h4><ul><li><a href="kvkk.html">KVKK Aydınlatma Metni</a></li><li><a href="kvkk.html#gizlilik">Gizlilik Politikası</a></li><li><a href="kvkk.html#cerez">Çerez Politikası</a></li></ul></div>

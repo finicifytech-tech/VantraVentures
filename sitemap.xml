@@ -14,4 +14,88 @@
     <xhtml:link rel="alternate" hreflang="x-default" href="https://vantraventures.com/"/>
     <lastmod>2026-10-18</lastmod>
   </url>
+  <url>
+    <loc>https://vantraventures.com/web-tasarim/</loc>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://vantraventures.com/web-tasarim/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://vantraventures.com/en/web-design/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://vantraventures.com/web-tasarim/"/>
+    <lastmod>2026-10-18</lastmod>
+  </url>
+  <url>
+    <loc>https://vantraventures.com/mobil-uygulama-gelistirme/</loc>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://vantraventures.com/mobil-uygulama-gelistirme/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://vantraventures.com/en/app-development/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://vantraventures.com/mobil-uygulama-gelistirme/"/>
+    <lastmod>2026-10-18</lastmod>
+  </url>
+  <url>
+    <loc>https://vantraventures.com/seo-hizmeti/</loc>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://vantraventures.com/seo-hizmeti/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://vantraventures.com/en/seo-services/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://vantraventures.com/seo-hizmeti/"/>
+    <lastmod>2026-10-18</lastmod>
+  </url>
+  <url>
+    <loc>https://vantraventures.com/klinik-web-sitesi/</loc>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://vantraventures.com/klinik-web-sitesi/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://vantraventures.com/en/clinic-websites/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://vantraventures.com/klinik-web-sitesi/"/>
+    <lastmod>2026-10-18</lastmod>
+  </url>
+  <url>
+    <loc>https://vantraventures.com/hukuk-burosu-web-sitesi/</loc>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://vantraventures.com/hukuk-burosu-web-sitesi/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://vantraventures.com/en/law-firm-websites/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://vantraventures.com/hukuk-burosu-web-sitesi/"/>
+    <lastmod>2026-10-18</lastmod>
+  </url>
+  <url>
+    <loc>https://vantraventures.com/ucretsiz-site-analizi/</loc>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://vantraventures.com/ucretsiz-site-analizi/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://vantraventures.com/en/free-website-audit/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://vantraventures.com/ucretsiz-site-analizi/"/>
+    <lastmod>2026-10-18</lastmod>
+  </url>
+  <url>
+    <loc>https://vantraventures.com/en/web-design/</loc>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://vantraventures.com/web-tasarim/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://vantraventures.com/en/web-design/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://vantraventures.com/web-tasarim/"/>
+    <lastmod>2026-10-18</lastmod>
+  </url>
+  <url>
+    <loc>https://vantraventures.com/en/app-development/</loc>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://vantraventures.com/mobil-uygulama-gelistirme/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://vantraventures.com/en/app-development/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://vantraventures.com/mobil-uygulama-gelistirme/"/>
+    <lastmod>2026-10-18</lastmod>
+  </url>
+  <url>
+    <loc>https://vantraventures.com/en/seo-services/</loc>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://vantraventures.com/seo-hizmeti/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://vantraventures.com/en/seo-services/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://vantraventures.com/seo-hizmeti/"/>
+    <lastmod>2026-10-18</lastmod>
+  </url>
+  <url>
+    <loc>https://vantraventures.com/en/clinic-websites/</loc>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://vantraventures.com/klinik-web-sitesi/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://vantraventures.com/en/clinic-websites/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://vantraventures.com/klinik-web-sitesi/"/>
+    <lastmod>2026-10-18</lastmod>
+  </url>
+  <url>
+    <loc>https://vantraventures.com/en/law-firm-websites/</loc>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://vantraventures.com/hukuk-burosu-web-sitesi/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://vantraventures.com/en/law-firm-websites/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://vantraventures.com/hukuk-burosu-web-sitesi/"/>
+    <lastmod>2026-10-18</lastmod>
+  </url>
+  <url>
+    <loc>https://vantraventures.com/en/free-website-audit/</loc>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://vantraventures.com/ucretsiz-site-analizi/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://vantraventures.com/en/free-website-audit/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://vantraventures.com/ucretsiz-site-analizi/"/>
+    <lastmod>2026-10-18</lastmod>
+  </url>
 </urlset>

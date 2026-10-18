@@ -6,10 +6,10 @@
   var en = document.documentElement.lang === 'en';
   var T = en ? {
     text: 'We use analytics cookies to understand how the site is used and to measure our ads. They are only enabled with your consent.',
-    policy: 'Cookie Policy', accept: 'Accept', reject: 'Reject', settings: 'Cookie settings', href: '../kvkk.html#cerez'
+    policy: 'Cookie Policy', accept: 'Accept', reject: 'Reject', settings: 'Cookie settings', href: '/kvkk.html#cerez'
   } : {
     text: 'Siteyi nasıl kullandığınızı anlamak ve reklamlarımızı ölçmek için analiz çerezleri kullanıyoruz. Bu çerezler yalnızca onayınızla etkinleşir.',
-    policy: 'Çerez Politikası', accept: 'Kabul et', reject: 'Reddet', settings: 'Çerez ayarları', href: 'kvkk.html#cerez'
+    policy: 'Çerez Politikası', accept: 'Kabul et', reject: 'Reddet', settings: 'Çerez ayarları', href: '/kvkk.html#cerez'
   };
   var KEY = 'vv-consent';
   function get() { try { return localStorage.getItem(KEY); } catch (e) { return null; } }

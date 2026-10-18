@@ -279,6 +279,12 @@ em, .serif { font-family: var(--font-serif); font-style: italic; font-weight: 40
 .checklist { display: flex; flex-wrap: wrap; gap: 8px 20px; font-size: 0.85rem; color: var(--muted); list-style: none; padding: 0; margin: 0; }
 .checklist li::before { content: "✓"; margin-right: 8px; color: var(--fg); }
 
+.more { display: inline-flex; gap: 8px; margin-top: 22px; font-size: 0.92rem; color: var(--fg); border-bottom: 1px solid var(--line-strong); padding-bottom: 2px; transition: border-color .3s; }
+.more:hover { border-color: var(--fg); }
+.audit-form .more { justify-self: start; margin-top: 4px; }
+.aud h3 a { transition: color .3s; }
+.aud h3 a:hover { color: var(--muted); }
+
 /* faq */
 .faq { border-top: 1px solid var(--line); }
 .faq details { border-bottom: 1px solid var(--line); }
@@ -323,7 +329,7 @@ legend { font-size: 0.78rem; letter-spacing: 0.12em; text-transform: uppercase; 
 
 /* footer */
 footer { border-top: 1px solid var(--line); padding-top: 64px; overflow: hidden; }
-.foot-top { display: grid; grid-template-columns: minmax(0, 2fr) repeat(3, minmax(0, 1fr)); gap: 32px; color: var(--muted); font-size: 0.92rem; }
+.foot-top { display: grid; grid-template-columns: minmax(0, 1.6fr) repeat(4, minmax(0, 1fr)); gap: 32px; color: var(--muted); font-size: 0.92rem; }
 .foot-top h4 { margin: 0 0 14px; font-size: 0.75rem; letter-spacing: 0.16em; text-transform: uppercase; color: var(--dim); font-weight: 400; }
 .foot-top ul { list-style: none; padding: 0; margin: 0; display: grid; gap: 8px; }
 .foot-top a:hover { color: var(--fg); }
@@ -346,7 +352,7 @@ footer { border-top: 1px solid var(--line); padding-top: 64px; overflow: hidden;
 /* responsive */
 @media (max-width: 1080px) {
   .steps { grid-template-columns: repeat(3, minmax(0, 1fr)); row-gap: 48px; }
-  .foot-top { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+  .foot-top { grid-template-columns: repeat(4, minmax(0, 1fr)); }
   .foot-top > :first-child { grid-column: 1 / -1; }
 }
 @media (max-width: 900px) {
@@ -451,15 +457,15 @@ footer { border-top: 1px solid var(--line); padding-top: 64px; overflow: hidden;
       <ul class="svc-list">
         <li class="svc open">
           <button aria-expanded="true" aria-controls="svc-1"><span class="kind">Turnkey</span><h3><em>Websites</em></h3><span class="plus" aria-hidden="true">+</span></button>
-          <div class="svc-body" id="svc-1"><div><div class="svc-inner"><span></span><div><p>Business sites, landing pages, e-commerce. No templates, no page builders: every line is written for your brand. Fast to load, sharp on every screen, built to meet Google's standards.</p><ul class="tags"><li>Business site</li><li>Landing page</li><li>E-commerce</li><li>Multilingual</li><li>Admin panel</li></ul></div><span class="svc-spacer"></span></div></div></div>
+          <div class="svc-body" id="svc-1"><div><div class="svc-inner"><span></span><div><p>Business sites, landing pages, e-commerce. No templates, no page builders: every line is written for your brand. Fast to load, sharp on every screen, built to meet Google's standards.</p><ul class="tags"><li>Business site</li><li>Landing page</li><li>E-commerce</li><li>Multilingual</li><li>Admin panel</li></ul><a class="more" href="web-design/">Web design service <span aria-hidden="true">→</span></a></div><span class="svc-spacer"></span></div></div></div>
         </li>
         <li class="svc">
           <button aria-expanded="false" aria-controls="svc-2"><span class="kind">Idea to app store</span><h3>Mobile and web <em>apps</em></h3><span class="plus" aria-hidden="true">+</span></button>
-          <div class="svc-body" id="svc-2"><div><div class="svc-inner"><span></span><div><p>iOS and Android apps, web apps, SaaS platforms, Telegram Mini Apps. We take your idea, ship the MVP fast and grow the product. Any idea.</p><ul class="tags"><li>iOS &amp; Android</li><li>React Native</li><li>SaaS</li><li>Telegram Mini App</li><li>MVP</li></ul></div><span class="svc-spacer"></span></div></div></div>
+          <div class="svc-body" id="svc-2"><div><div class="svc-inner"><span></span><div><p>iOS and Android apps, web apps, SaaS platforms, Telegram Mini Apps. We take your idea, ship the MVP fast and grow the product. Any idea.</p><ul class="tags"><li>iOS &amp; Android</li><li>React Native</li><li>SaaS</li><li>Telegram Mini App</li><li>MVP</li></ul><a class="more" href="app-development/">App development <span aria-hidden="true">→</span></a></div><span class="svc-spacer"></span></div></div></div>
         </li>
         <li class="svc">
           <button aria-expanded="false" aria-controls="svc-3"><span class="kind">Organic growth</span><h3>SEO</h3><span class="plus" aria-hidden="true">+</span></button>
-          <div class="svc-body" id="svc-3"><div><div class="svc-inner"><span></span><div><p>Technical SEO, content, local search and Google Business Profile. We work to get you onto page one when customers search for you, and report every month.</p><ul class="tags"><li>Technical SEO</li><li>Content</li><li>Local SEO</li><li>Multilingual SEO</li><li>Monthly report</li></ul></div><span class="svc-spacer"></span></div></div></div>
+          <div class="svc-body" id="svc-3"><div><div class="svc-inner"><span></span><div><p>Technical SEO, content, local search and Google Business Profile. We work to get you onto page one when customers search for you, and report every month.</p><ul class="tags"><li>Technical SEO</li><li>Content</li><li>Local SEO</li><li>Multilingual SEO</li><li>Monthly report</li></ul><a class="more" href="seo-services/">SEO services <span aria-hidden="true">→</span></a></div><span class="svc-spacer"></span></div></div></div>
         </li>
         <li class="svc">
           <button aria-expanded="false" aria-controls="svc-4"><span class="kind">Advertising</span><h3>Google <em>Ads</em></h3><span class="plus" aria-hidden="true">+</span></button>
@@ -546,9 +552,9 @@ footer { border-top: 1px solid var(--line); padding-top: 64px; overflow: hidden;
         <div><h2>We know the <em>rules</em> of your industry.</h2></div>
       </div>
       <ul class="aud">
-        <li><h3>Law firms</h3><p>Trustworthy, informative sites that respect the advertising rules for lawyers in Türkiye.</p></li>
-        <li><h3>Clinics and <em>dental practices</em></h3><p>Doctor and treatment pages, appointment requests, visibility on Google Maps.</p></li>
-        <li><h3>Hair transplant and <em>medical tourism</em></h3><p>Multilingual sites and SEO for international patients, with fast replies on WhatsApp.</p></li>
+        <li><h3><a href="law-firm-websites/">Law firms</a></h3><p>Trustworthy, informative sites that respect the advertising rules for lawyers in Türkiye.</p></li>
+        <li><h3><a href="clinic-websites/">Clinics and <em>dental practices</em></a></h3><p>Doctor and treatment pages, appointment requests, visibility on Google Maps.</p></li>
+        <li><h3><a href="clinic-websites/">Hair transplant and <em>medical tourism</em></a></h3><p>Multilingual sites and SEO for international patients, with fast replies on WhatsApp.</p></li>
         <li><h3>Startups and <em>app ideas</em></h3><p>From idea to working product: MVP, mobile app, web platform.</p></li>
         <li><h3>Businesses with an <em>outdated</em> site</h3><p>We rebuild sites that are slow, broken on mobile or invisible on Google.</p></li>
       </ul>
@@ -578,6 +584,7 @@ footer { border-top: 1px solid var(--line); padding-top: 64px; overflow: hidden;
         <p>Leave your address. We will send a short review of speed, mobile experience and Google visibility. No commitment.</p>
         <div class="url-field"><label for="audit-url" class="visually-hidden" style="position:absolute;left:-9999px">Website address</label><input id="audit-url" type="text" inputmode="url" placeholder="yoursite.com" autocomplete="url"><button class="btn btn-solid" type="submit">Request audit <span class="arr" aria-hidden="true">→</span></button></div>
         <ul class="checklist"><li>Page speed</li><li>Mobile experience</li><li>Technical SEO</li><li>Competitor comparison</li></ul>
+        <a class="more" href="free-website-audit/">What the audit covers <span aria-hidden="true">→</span></a>
       </form>
     </div>
   </section>
@@ -650,6 +657,7 @@ footer { border-top: 1px solid var(--line); padding-top: 64px; overflow: hidden;
   <div class="wrap">
     <div class="foot-top">
       <p style="max-width:34ch">Custom-coded websites, apps, SEO and Google Ads. From Istanbul to Türkiye and the world.</p>
+      <div><h4>Services</h4><ul><li><a href="web-design/">Web Design</a></li><li><a href="app-development/">App Development</a></li><li><a href="seo-services/">SEO Services</a></li><li><a href="clinic-websites/">Clinic Websites</a></li><li><a href="law-firm-websites/">Law Firm Websites</a></li><li><a href="free-website-audit/">Free Website Audit</a></li></ul></div>
       <div><h4>Menu</h4><ul><li><a href="#services">Services</a></li><li><a href="#work">Work</a></li><li><a href="#process">Process</a></li><li><a href="#contact">Contact</a></li></ul></div>
       <div><h4>Contact</h4><ul><li><a href="mailto:info@vantraventures.com">info@vantraventures.com</a></li><li><a href="tel:+905307170105">+90 530 717 01 05</a></li><li>Akasya Plaza, Acıbadem</li></ul></div>
       <div><h4>Legal</h4><ul><li><a href="../kvkk.html" hreflang="tr">KVKK notice (Turkish)</a></li><li><a href="../kvkk.html#gizlilik" hreflang="tr">Privacy policy</a></li><li><a href="../kvkk.html#cerez" hreflang="tr">Cookie policy</a></li></ul></div>
